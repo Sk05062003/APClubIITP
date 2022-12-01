@@ -1,0 +1,9 @@
+.collab-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.collab {
+    object-fit: contain;
+    margin: auto 0;
+}

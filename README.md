@@ -1,1 +1,1 @@
-# APClubIITP
+# Ecell IITP Website

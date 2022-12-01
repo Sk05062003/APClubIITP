@@ -1,0 +1,240 @@
+/* Template: AP CLUB, IITP -HTML Landing Page Template
+   Created: August 2022
+   Description: Master CSS file
+*/
+/*****************************************
+Table Of Contents:
+
+01. General Styles
+02. Preloader
+03. Navigation
+04. Header
+05. Customers
+06. Services
+07. Details 1
+08. Details 2
+09. Details Lightboxes
+10. Pricing
+11. Request
+12. Video
+13. Testimonials
+14. About
+15. Contact
+16. Footer
+17. Copyright
+18. Back To Top Button
+19. Extra Pages
+20. Media Queries
+******************************************/
+
+
+/******************************/
+/*     01. General Styles     */
+/******************************/
+body,
+html {
+    width: 100%;
+	height: 100%;
+}
+
+body, p {
+	color: #393939; 
+	font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+}
+
+.p-large {
+	font: 400 1rem/1.5rem "Raleway", sans-serif;
+}
+
+.p-small {
+	font: 400 0.75rem/1.25rem "Raleway", sans-serif;
+}
+
+.p-heading {
+	margin-bottom: 3.875rem;
+}
+
+.li-space-lg li {
+	margin-bottom: 0.25rem;
+}
+
+.indent {
+	padding-left: 1.25rem;
+}
+
+h1 {
+	color: #393939;
+	font: 700 3rem/3.5rem "Raleway", sans-serif;
+}
+
+h2 {
+	color: #393939;
+	font: 700 2.25rem/2.75rem "Raleway", sans-serif;
+}
+
+h3 {
+	color: #393939;
+	font: 700 1.75rem/2rem "Raleway", sans-serif;
+}
+
+h4 {
+	color: #393939;
+	font: 700 1.375rem/1.875rem "Raleway", sans-serif;
+}
+
+h5 {
+	color: #393939;
+	font: 700 1.125rem/1.625rem "Raleway", sans-serif;
+}
+
+h6 {
+	color: #393939;
+	font: 700 1rem/1.5rem "Raleway", sans-serif;
+}
+
+/**************************/
+/*   02. Button           */
+/**************************/
+
+.btn-solid-lg {
+position: absolute;
+width: 99px;
+height: 50px;
+left: 291px;
+top: 648px;
+font-family: 'Share Tech Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 172.7%;
+/* or 52px */
+color: #000000;
+}
+.btn-outline-lg {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 203px;
+    height: 65px;
+    left: 239px;
+    top: 640px;
+    
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+}
+/**************************/
+/*     03. Navigation     */
+/**************************/
+.navbar-custom {
+    position: absolute;
+    width: 1920px;
+    height: 116px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    border: 5px solid #FFA500;
+}
+.navbar-custom .nav-item1 .nav-link {
+    position: absolute;
+width: 65px;
+height: 41px;
+left: 1163px;
+top: 45px;
+font-family: 'Share Tech Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+color: #FFA500;
+}
+.navbar-custom .nav-item2 .nav-link {
+position: absolute;
+width: 87px;
+height: 41px;
+left: 1259px;
+top: 45px;
+font-family: 'Share Tech Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+color: #FFFFFF;
+}
+.navbar-custom .nav-item3 .nav-link {
+    position: absolute;
+    width: 104px;
+    height: 41px;
+    left: 1370px;
+    top: 45px;
+    
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
+.navbar-custom .nav-item4 .nav-link {
+position: absolute;
+width: 65px;
+height: 41px;
+left: 1498px;
+top: 45px;
+font-family: 'Share Tech Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+color: #FFFFFF;
+}
+.navbar-custom .nav-item5 .nav-link {
+position: absolute;
+width: 123px;
+height: 41px;
+left: 1600px;
+top: 45px;
+font-family: 'Share Tech Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+color: #FFFFFF;
+}
+/*********************/
+/*    04. Header     */
+/*********************/
+.header {
+	background-image: url("");
+    width: 1920;
+    height: 964px;
+    top: 112px;
+}
+.header .header-content{
+    
+}
+.header .text-container {
+    position: absolute;
+    width: 875px;
+    height: 312px;
+    left: 239px;
+    top: 308px;
+    
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 104px;
+    letter-spacing: 0.375em;
+    
+    color: #FFFFFF;
+}
+.header .text-container .text-image{
+position: absolute;
+width: 580px;
+height: 580px;
+left: 1143px;
+top: 174px;
+
+background: url(transparentlogo.png);
+}
