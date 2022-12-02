@@ -134,7 +134,9 @@ a.white {
 .turquoise {
 	color: #00bfd8;
 }
-
+.tt{
+	color: #c4d8dc;
+}
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
