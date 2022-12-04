@@ -13,4 +13,4 @@ Please find all the resources below:-
 Note:- 
 1. create pull request to dev branch only
 2. for any content that is not provided in the above mentioned drive link, add dummy content(for example: stock images).
-    
+3. with each pull request, please attach a screenshot for the page after implementation of code.    
