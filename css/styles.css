@@ -72,6 +72,11 @@ p {
 	margin-bottom: 0.25rem;
 }
 
+.abt{
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
 .indent {
 	padding-left: 1.25rem;
 }
