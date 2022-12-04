@@ -10,4 +10,7 @@ Please find all the resources below:-
 3. Drive link for the resources (images, content) to be put up on the website
     https://drive.google.com/drive/folders/1JzFWoJdk7wi2SUlda3bZW1_rH6MJT7Cx?usp=sharing
 
+Note:- 
+1. create pull request to dev branch only
+2. for any content that is not provided in the above mentioned drive link, add dummy content(for example: stock images).
     
