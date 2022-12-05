@@ -1,4 +1,3 @@
-
 /* body {
   background: #fff;
   color: #444;
@@ -10,11 +9,8 @@ a {
   transition: 0.5s;
 }
 
-
-.coming{
-    color: red;
-   
-
+.coming {
+  color: red;
 }
 
 blink {
@@ -23,7 +19,7 @@ blink {
 }
 
 /* for Safari 4.0 - 8.0 */
-@-webkit-keyframes condemned_blink_effect { 
+@-webkit-keyframes condemned_blink_effect {
   0% {
     visibility: hidden;
   }
@@ -47,7 +43,6 @@ blink {
   }
 }
 
-
 a:hover,
 a:active,
 a:focus {
@@ -60,7 +55,7 @@ a:focus {
   border-radius: 4px;
   background-color: #f4511e;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 28px;
   padding: 5px;
@@ -78,7 +73,7 @@ a:focus {
 }
 
 .button span:after {
-  content: '\00bb';
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -94,8 +89,6 @@ a:focus {
   opacity: 1;
   right: 0;
 }
-
-
 
 p {
   padding: 0;
@@ -612,7 +605,7 @@ h6 {
 #about .about-img img {
   width: 100%;
   border: 8px solid #fff;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #about .about-img img:hover {
@@ -628,9 +621,9 @@ h6 {
   width: 90%;
   height: 92%;
   z-index: -1;
-  content: '';
+  content: "";
   background-color: #ebf1fa;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #about .about-img::after {
@@ -640,9 +633,9 @@ h6 {
   width: 90%;
   height: 92%;
   z-index: -1;
-  content: '';
+  content: "";
   background-color: #ebf1fa;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 /* Services Section
@@ -936,8 +929,18 @@ h6 {
   background: #42c3e8;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-preview:hover
+  i,
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-details:hover
+  i {
   color: #fff;
 }
 
@@ -960,8 +963,6 @@ h6 {
 #testimonials .section-header {
   margin-bottom: 40px;
   color: #fff;
-
-
 }
 
 #testimonials .testimonial-item .testimonial-img {
@@ -1141,13 +1142,13 @@ h6 {
   border: 0;
   border-radius: 0px;
   box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   padding: 36px 0;
   position: relative;
 }
 
 #pricing .card:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
