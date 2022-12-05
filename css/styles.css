@@ -842,15 +842,38 @@ screen and (-ms-high-contrast: none) {
 /*     05. Customers     */
 /*************************/
 .slider-1 {
-	padding-top: 2.25rem;
+	
 	padding-bottom: 2.125rem;
 	text-align: center;
+	background-color:  #100801;
+	height: 879px;
+	
 }
 
-.slider-1 h5 {
+.slider-1 h2 {
 	margin-bottom: 0.75rem;
-}
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 104px;
+	margin-top: 194px;
 
+	color: #FFFFFF;
+}
+.slider-1 p {
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 152.7%;
+	height: 194px;
+/* or 46px */
+	margin-bottom: 347px;
+	text-align: justify;
+
+	color: #FFFFFF;
+}
 .slider-1 .slider-container {
 	padding-top: 2.75rem;
 	padding-bottom: 2.75rem;
