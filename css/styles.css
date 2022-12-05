@@ -72,6 +72,26 @@ p {
 	margin-bottom: 0.25rem;
 }
 
+.abt{
+	/* position: absolute;
+width: 1384px;
+height: 194px;
+left: 268px;
+top: 1416px; */
+
+font-family: 'Share Tech Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 152.7%;
+/* or 46px */
+
+text-align: justify;
+
+color: #FFFFFF;
+
+}
+
 .indent {
 	padding-left: 1.25rem;
 }
@@ -841,10 +861,23 @@ screen and (-ms-high-contrast: none) {
 /*************************/
 /*     05. Customers     */
 /*************************/
+.att{
+font-family: 'Share Tech Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 104px;
+color: #FFFFFF;
+}
+
+.line{
+	border: 2px solid rgba(255, 255, 255, 0.46);
+}
 .slider-1 {
 	padding-top: 2.25rem;
 	padding-bottom: 2.125rem;
 	text-align: center;
+	background-color: #100801;
 }
 
 .slider-1 h5 {
