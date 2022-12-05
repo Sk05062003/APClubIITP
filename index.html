@@ -37,7 +37,7 @@
         <link href="css/magnific-popup.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
-
+        <link rel="stylesheet" href="css/swiper.min.css">
         <!-- Favicon  -->
         <link rel="icon" href="images/apclub.png">
         <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'>
@@ -147,8 +147,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2>ABOUT US</h2>
-                        <p>Astronomy and Particle Physics (AP) Club is a team of enthusiastic people who share a common goal of exploring, studying, and experimenting with a wide variety of Astronomy and Particle Physics related topics, facts, and new discoveries. We have been trying to make people aware of scintillating stuff right from the nano-level world to the vastness of the cosmos!</p>
+                        <h5 class = "att">ABOUT US</h5>
+                        <hr class ="line">
+                        <span class = "abt">Astronomy and Particle Physics (AP) Club is a team of enthusiastic people who share a common goal of exploring, studying, and experimenting with a wide variety of Astronomy and Particle Physics related topics, facts, and new discoveries. We have been trying to make people aware of scintillating stuff right from the nano-level world to the vastness of the cosmos!</span>
 
 
                         <!-- Image Slider -->
@@ -176,33 +177,69 @@
                     <!-- end of col -->
                 </div>
                 <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-12">
-
-                        <!-- Card -->
-                        
-
-                        <!-- end of card -->
-
-                    </div>
+                
+                <div class="slide-container swiper-container">
                     <!-- end of col -->
-                    <div class="col-lg-12">
-
+                    <div class="slide-content swiper-wrapper">
+                        <!-- Here add any number of cards -->
                         <!-- Card -->
-                        
+                        <div class="card swiper-slide">
+                            <img src="./images/l2.png" class="card-image" alt="">
+                            <h2 class="card-title">EVENT NAME 1</h2>
+                            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime nostrum, ratione, consequuntur in eos, accusantium voluptatum libero quae eveniet totam quam id. Amet, ullam.</p>
+                        </div> 
                         <!-- end of card -->
 
                         <!-- Card -->
-                        
+                        <div class="card swiper-slide">
+                            <img src="./images/l2.png" class="card-image" alt="">
+                            <h2 class="card-title">EVENT NAME 2</h2>
+                            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime nostrum, ratione, consequuntur in eos, accusantium voluptatum libero quae eveniet totam quam id. Amet, ullam.</p>
+
+                        </div> 
                         <!-- end of card -->
 
                         <!-- Card -->
-                        
+                        <div class="card swiper-slide">
+                            <img src="./images/l2.png" class="card-image" alt="">
+                            <h2 class="card-title">EVENT NAME 3</h2>
+                            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime nostrum, ratione, consequuntur in eos, accusantium voluptatum libero quae eveniet totam quam id. Amet, ullam.</p>
 
+                        </div> 
+
+                        <div class="card swiper-slide">
+                            <img src="./images/l2.png" class="card-image" alt="">
+                            <h2 class="card-title">EVENT NAME 4</h2>
+                            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime nostrum, ratione, consequuntur in eos, accusantium voluptatum libero quae eveniet totam quam id. Amet, ullam.</p>
+
+                        </div> 
+
+                        <div class="card swiper-slide">
+                            <img src="./images/l2.png" class="card-image" alt="">
+                            <h2 class="card-title">EVENT NAME 5</h2>
+                            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime nostrum, ratione, consequuntur in eos, accusantium voluptatum libero quae eveniet totam quam id. Amet, ullam.</p>
+
+                        </div> 
+
+                        <div class="card swiper-slide">
+                            <img src="./images/l2.png" class="card-image" alt="">
+                            <h2 class="card-title">EVENT NAME 6</h2>
+                            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime nostrum, ratione, consequuntur in eos, accusantium voluptatum libero quae eveniet totam quam id. Amet, ullam.</p>
+
+                        </div> 
+
+                        <div class="card swiper-slide">
+                            <img src="./images/l2.png" class="card-image" alt="">
+                            <h2 class="card-title">EVENT NAME 7</h2>
+                            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maxime nostrum, ratione, consequuntur in eos, accusantium voluptatum libero quae eveniet totam quam id. Amet, ullam.</p>
+
+                        </div> 
                         <!-- end of card -->
-
-                    </div>
+                   </div>
+                   
                 </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 <!-- end of row -->
             </div>
             <!-- end of container -->
@@ -490,7 +527,7 @@
             <!-- end of copyright -->
             <!-- end of copyright -->
 
-
+            
             <!-- Scripts -->
             <script src="js/jquery.min.js"></script>
             <!-- jQuery for Bootstrap's JavaScript plugins -->
@@ -507,6 +544,21 @@
             <script src="js/validator.min.js"></script>
             <!-- Validator.js - Bootstrap plugin that validates forms -->
             <script src="js/scripts.js"></script>
+            <script>
+                
+                var swiper = new Swiper(".slide-container", {
+                  slidesPerView: 'auto',
+                  spaceBetween: 55,
+                  loop: true,
+                  centeredSlides: true,
+                  fade: true,
+                  grabCursor: true,
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                  });
+              </script>
             <!-- Custom scripts -->
     </body>
 
