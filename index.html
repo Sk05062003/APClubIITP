@@ -428,8 +428,8 @@
                 <!-- end of container -->
             
             <!--Magazine-->
-            <div class="Magazine">
-                <div class="container">
+            <div class="feedback-section">
+                <div class="feedback-form">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="Magazine-col">
@@ -457,6 +457,40 @@
                     </div>
 
                 </div>
+                <div class="feedback">
+                    <h1 class="feedback-header-main">Magazine Feedbacks</h1>
+                      <div class="col-sm-9">
+                        <div class="feedback-scroll" id="feedback-scroll">
+                        <div id="scroll-container">
+                            <div id="feedback-item" class="feedback-item">
+                                <div id="feedback-object">
+                                    <h1 class="feedback-header">Full Name 1</h1>
+                                    <p class="feedback-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reiciendis, asperiores dicta perspiciatis esse vel voluptatibus. Earum repellat commodi nostrum?</p>
+                                </div>
+                            </div>
+                            <div id="feedback-item" class="feedback-item">
+                                <div id="feedback-object">
+                                    <h1 class="feedback-header">Full Name 2</h1>
+                                    <p class="feedback-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reiciendis, asperiores dicta perspiciatis esse vel voluptatibus. Earum repellat commodi nostrum?</p>
+                                </div>
+                            
+                            </div>
+                            <div id="feedback-item" class="feedback-item">
+                                <div id="feedback-object">
+                                    <h1 class="feedback-header">Full Name 3</h1>
+                                    <p class="feedback-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reiciendis, asperiores dicta perspiciatis esse vel voluptatibus. Earum repellat commodi nostrum?</p>
+                                </div>
+                            </div>
+                            <div id="feedback-item" class="feedback-item">
+                                <div id="feedback-object">
+                                    <h1 class="feedback-header">Full Name 4</h1>
+                                    <p class="feedback-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reiciendis, asperiores dicta perspiciatis esse vel voluptatibus. Earum repellat commodi nostrum?</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
 
 
             </div>
@@ -583,6 +617,52 @@
                   },
                   });
               </script>
+                <script>
+                            var div=document.getElementById('feedback-scroll');
+                            myinterval=setInterval(function(){
+                                div.scrollBy(0,1);
+                                
+                                
+                            },20);
+                            div.addEventListener('mouseover',function(){
+                                clearInterval(myinterval);
+                            });
+                            div.addEventListener('mouseout',function(){
+                                myinterval=setInterval(function(){
+                                div.scrollBy(0,1);
+                                
+                                
+                            },20);
+                            });
+                            document.addEventListener('DOMContentLoaded', function() {
+                            
+                              console.log('hello');
+                              var div=document.getElementById('feedback-scroll');
+            
+            
+                            
+            
+                              div.addEventListener('scroll', function() {
+                                console.log('scrolling');
+                                var max_scroll = this.scrollHeight - this.clientHeight;
+                                var current_scroll = this.scrollTop;
+                                var bottom = 100;
+                                if ( current_scroll + bottom >= max_scroll ) {
+                                    var div_item=document.getElementById('scroll-container');
+                                    var clone=div_item.cloneNode(true);
+                                    div.appendChild(clone);
+                                } 
+                                console.log(current_scroll);
+                                if(current_scroll<=500){
+                                    console.log(current_scroll);
+                                    var div_item=document.getElementById('scroll-container');
+                                    var clone=div_item.cloneNode(true);
+                                    div.insertBefore(clone,div.firstChild);
+                                }
+                            });
+                        });
+                            
+                        </script>
             <!-- Custom scripts -->
     </body>
 
