@@ -1604,6 +1604,8 @@ color: #FFFFFF;
 .footer {
 	padding-top: 4.625rem;
 	padding-bottom: 0.5rem;
+	background: #000000;
+	border: 1px solid #FFA500;
 }
 
 .footer .footer-col {
@@ -1612,6 +1614,27 @@ color: #FFFFFF;
 
 .footer h4 {
 	margin-bottom: 1rem;
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 172.7%;
+	/* or 60px */
+
+
+	color: #FFFFFF;
+}
+
+.footer h5 {
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 172.7%;
+	/* or 52px */
+
+
+	color: #FFFFFF;
 }
 
 .footer .list-unstyled .fas {
