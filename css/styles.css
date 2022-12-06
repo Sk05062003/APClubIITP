@@ -1679,25 +1679,16 @@ color: #FFFFFF;
 /*************************/
 /*     Magazine       */
 /*************************/
+.Magazine {
+	background: #001226;
+
+}
 .Magazine-col {
 	background: #000D1C;
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
-.feedback-section{
-	display: flex;
-}
-.feedback-section .feedback-form,.feedback{
-
-	display: inline-block;
-}
-.feedback-section .feedback-form{
-	min-width: 790px;
-	margin-left: 10%;
-	height: 1032px;
-	
-}
-.feedback-section h5 {
+.Magazine h5 {
 	font-family: 'Share Tech Mono';
 	font-style: normal;
 	font-weight: 400;
@@ -1708,7 +1699,7 @@ color: #FFFFFF;
 
 	color: #FFFFFF;
 }
-.feedback-section input {
+.Magazine input {
 	background: #D9D9D9;
 	width: 80%;
 	font-size: 30px;
@@ -1716,7 +1707,7 @@ color: #FFFFFF;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.feedback-section button {
+.Magazine button {
 	background: #BD7A00;
 	display: block;
 	width:100%;
