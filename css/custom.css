@@ -9,8 +9,8 @@
 }
 .feedback {
     position: relative;
-    margin-right: 50%;
-    min-width: 790px;
+    /* margin-right: 50%; */
+    max-width: 790px;
     height: 1036px;
     background: #000D1C;
     
@@ -22,14 +22,14 @@
 .feedback-scroll{
     margin-top: 40px;
     height: 780px;
-    width: 790px;
+    max-width: 790px;
     overflow-x: scroll;
 }
 .feedback-scroll::-webkit-scrollbar {
     display: none;
   }
 .feedback-content{  
-    width: 679px;
+    max-width: 679px;
     /* height: 238px; */
     font-family: 'Share Tech Mono';
     font-style: normal;
@@ -61,3 +61,4 @@
     border-bottom: solid 2px #FF8A00;
     margin-left: 18px;
 }
+
