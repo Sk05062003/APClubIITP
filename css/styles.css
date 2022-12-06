@@ -27,6 +27,7 @@ Table Of Contents:
 18. Back To Top Button
 19. Extra Pages
 20. Media Queries
+ 
 ******************************************/
 
 /*****************************************
@@ -1546,6 +1547,9 @@ color: #FFFFFF;
 }
 
 
+
+
+
 /***********************/
 /*     15. Contact     */
 /***********************/
@@ -1671,6 +1675,64 @@ color: #FFFFFF;
 	color: #00a7bd;
 }
 
+
+/*************************/
+/*     Magazine       */
+/*************************/
+.Magazine {
+	background: #001226;
+
+}
+.Magazine-col {
+	background: #000D1C;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.Magazine h5 {
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 172.7%;
+	/* or 73px */
+
+
+	color: #FFFFFF;
+}
+.Magazine input {
+	background: #D9D9D9;
+	width: 80%;
+	font-size: 30px;
+	line-height: 172.7%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.Magazine button {
+	background: #BD7A00;
+	display: block;
+	width:100%;
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 172.7%;
+	/* or 73px */
+
+	text-align: center;
+
+	color: #000000;
+}
+::placeholder {
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 172.7%;
+	/* or 62px */
+
+	width: 100%;
+	color: #717171;
+}
 
 /*************************/
 /*     17. Copyright     */
@@ -2317,6 +2379,7 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 	/* end of contact */
+
 
 
 	/* Footer */
