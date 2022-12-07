@@ -10,36 +10,35 @@
 .feedback {
     position: relative;
     /* margin-right: 50%; */
-    max-width: 790px;
-    height: 1036px;
+    /* max-width: 790px; */
+    height: 900px;
     background: #000D1C;
     
     padding-left: 55px;
     padding-top: 63px;
-    padding-right: 57px;
     margin-bottom: 50px;
+    margin-right: 57px;
 }
 .feedback-scroll{
     margin-top: 40px;
-    height: 780px;
-    max-width: 790px;
+    height: 700px;
+    max-width: 690px;
     overflow-x: scroll;
 }
 .feedback-scroll::-webkit-scrollbar {
     display: none;
   }
 .feedback-content{  
-    max-width: 679px;
+    /* max-width: 679px; */
     /* height: 238px; */
     font-family: 'Share Tech Mono';
     font-style: normal;
     line-height: 118%;
-    font-size: 35px;
+    font-size: 28px;
     color: #FFFFFF;
     text-align: left;
     font-weight: 400;
     margin-top: 10px;
-    
 }
 .feedback-header,.feedback-header-main{
     font-family: 'Share Tech Mono';
@@ -52,7 +51,7 @@
 }
 .feedback-section{
     background: #011226;
-    height: 1107px;
+    height: 900px;
 }
 .feedback-item{
     margin-bottom: 40px;
@@ -61,4 +60,3 @@
     border-bottom: solid 2px #FF8A00;
     margin-left: 18px;
 }
-
