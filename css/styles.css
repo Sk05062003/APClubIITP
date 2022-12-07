@@ -1688,7 +1688,22 @@ color: #FFFFFF;
 	margin-bottom: 15px;
 	margin-top: 15px;
 }
-.Magazine h5 {
+
+.feedback-section{
+	display: flex;
+}
+.feedback-section .feedback-form,.feedback{
+
+	display: inline-block;
+}
+.feedback-section .feedback-form{
+	max-width: 790px;
+	margin-left: 10%;
+	height: 1032px;
+	margin-right: 50px;
+	
+}
+.feedback-section h5 {
 	font-family: 'Share Tech Mono';
 	font-style: normal;
 	font-weight: 400;
