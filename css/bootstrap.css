@@ -10036,3 +10036,39 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+#calender-id button{
+  font-family: Josefin Sans;
+  font-size: 34px;
+  font-weight: 600;
+  
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  background: rgba(255, 165, 0, 0.5);
+  }
+
+#calender-id button:hover{
+  background: #FFA500;
+  color:#000000;
+}
+
+#calender-id button:hover img{
+  filter:brightness(0);
+}
+
+.astrocalender{
+  background-color:#3A1B00;
+  width: 100%;
+  height: auto;
+  position:relative;
+  top: 45px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
