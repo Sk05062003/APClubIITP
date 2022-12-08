@@ -858,7 +858,6 @@ screen and (-ms-high-contrast: none) {
 }
 
 .header-content {
-	margin-top: 8%;
 	display: flex;
 	padding: 12% 0;
 	justify-content: center;
@@ -936,6 +935,38 @@ screen and (-ms-high-contrast: none) {
 	}
 }
 
+#calender-id button {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+	color: white;
+	position: absolute;
+	width: 100%;
+	padding: 12px 0;
+	background: rgba(255, 165, 0, 0.5);
+}
+
+#calender-id button:hover {
+	background: #FFA500;
+	color: #000000;
+}
+
+#calender-id button:hover img {
+	filter: brightness(0);
+}
+
+.astrocalender {
+	background-color: #3A1B00;
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 45px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
 /*************************/
 /*     05. Customers     */
