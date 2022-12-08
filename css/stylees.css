@@ -34,62 +34,63 @@ Table Of Contents:
 body,
 html {
     width: 100%;
-	height: 100%;
+    height: 100%;
 }
 
-body, p {
-	color: #393939; 
-	font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+body,
+p {
+    color: #393939;
+    font: 400 0.875rem/1.375rem "Raleway", sans-serif;
 }
 
 .p-large {
-	font: 400 1rem/1.5rem "Raleway", sans-serif;
+    font: 400 1rem/1.5rem "Raleway", sans-serif;
 }
 
 .p-small {
-	font: 400 0.75rem/1.25rem "Raleway", sans-serif;
+    font: 400 0.75rem/1.25rem "Raleway", sans-serif;
 }
 
 .p-heading {
-	margin-bottom: 3.875rem;
+    margin-bottom: 3.875rem;
 }
 
 .li-space-lg li {
-	margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .indent {
-	padding-left: 1.25rem;
+    padding-left: 1.25rem;
 }
 
 h1 {
-	color: #393939;
-	font: 700 3rem/3.5rem "Raleway", sans-serif;
+    color: #393939;
+    font: 700 3rem/3.5rem "Raleway", sans-serif;
 }
 
 h2 {
-	color: #393939;
-	font: 700 2.25rem/2.75rem "Raleway", sans-serif;
+    color: #393939;
+    font: 700 2.25rem/2.75rem "Raleway", sans-serif;
 }
 
 h3 {
-	color: #393939;
-	font: 700 1.75rem/2rem "Raleway", sans-serif;
+    color: #393939;
+    font: 700 1.75rem/2rem "Raleway", sans-serif;
 }
 
 h4 {
-	color: #393939;
-	font: 700 1.375rem/1.875rem "Raleway", sans-serif;
+    color: #393939;
+    font: 700 1.375rem/1.875rem "Raleway", sans-serif;
 }
 
 h5 {
-	color: #393939;
-	font: 700 1.125rem/1.625rem "Raleway", sans-serif;
+    color: #393939;
+    font: 700 1.125rem/1.625rem "Raleway", sans-serif;
 }
 
 h6 {
-	color: #393939;
-	font: 700 1rem/1.5rem "Raleway", sans-serif;
+    color: #393939;
+    font: 700 1rem/1.5rem "Raleway", sans-serif;
 }
 
 /**************************/
@@ -97,19 +98,20 @@ h6 {
 /**************************/
 
 .btn-solid-lg {
-position: absolute;
-width: 99px;
-height: 50px;
-left: 291px;
-top: 648px;
-font-family: 'Share Tech Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 172.7%;
-/* or 52px */
-color: #000000;
+    position: absolute;
+    width: 99px;
+    height: 50px;
+    left: 291px;
+    top: 648px;
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 172.7%;
+    /* or 52px */
+    color: #000000;
 }
+
 .btn-outline-lg {
     box-sizing: border-box;
 
@@ -118,10 +120,11 @@ color: #000000;
     height: 65px;
     left: 239px;
     top: 640px;
-    
+
     background: #FFFFFF;
     border: 3px solid #FFFFFF;
 }
+
 /**************************/
 /*     03. Navigation     */
 /**************************/
@@ -134,77 +137,83 @@ color: #000000;
     background: #000000;
     border: 5px solid #FFA500;
 }
+
 .navbar-custom .nav-item1 .nav-link {
     position: absolute;
-width: 65px;
-height: 41px;
-left: 1163px;
-top: 45px;
-font-family: 'Share Tech Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 34px;
-color: #FFA500;
+    width: 65px;
+    height: 41px;
+    left: 1163px;
+    top: 45px;
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFA500;
 }
+
 .navbar-custom .nav-item2 .nav-link {
-position: absolute;
-width: 87px;
-height: 41px;
-left: 1259px;
-top: 45px;
-font-family: 'Share Tech Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 34px;
-color: #FFFFFF;
+    position: absolute;
+    width: 87px;
+    height: 41px;
+    left: 1259px;
+    top: 45px;
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
 }
+
 .navbar-custom .nav-item3 .nav-link {
     position: absolute;
     width: 104px;
     height: 41px;
     left: 1370px;
     top: 45px;
-    
+
     font-family: 'Share Tech Mono';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 34px;
-    
+
     color: #FFFFFF;
 }
+
 .navbar-custom .nav-item4 .nav-link {
-position: absolute;
-width: 65px;
-height: 41px;
-left: 1498px;
-top: 45px;
-font-family: 'Share Tech Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 34px;
-color: #FFFFFF;
+    position: absolute;
+    width: 65px;
+    height: 41px;
+    left: 1498px;
+    top: 45px;
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
 }
+
 .navbar-custom .nav-item5 .nav-link {
-position: absolute;
-width: 123px;
-height: 41px;
-left: 1600px;
-top: 45px;
-font-family: 'Share Tech Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 34px;
-color: #FFFFFF;
+    position: absolute;
+    width: 123px;
+    height: 41px;
+    left: 1600px;
+    top: 45px;
+    font-family: 'Share Tech Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
 }
+
 /*********************/
 /*    04. Header     */
 /*********************/
-.header {
+/* .header {
 	background-image: url("");
     width: 1920;
     height: 964px;
@@ -237,4 +246,4 @@ left: 1143px;
 top: 174px;
 
 background: url(transparentlogo.png);
-}
+} */
