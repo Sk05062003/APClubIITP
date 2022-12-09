@@ -1663,7 +1663,7 @@ color: #FFFFFF;
 	padding-top: 4.625rem;
 	padding-bottom: 0.5rem;
 	background: #000000;
-	border: 1px solid #FFA500;
+	border-top: 1px solid #FFA500;
 }
 
 .footer .footer-col {
