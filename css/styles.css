@@ -1552,6 +1552,7 @@ color: #FFFFFF;
 .footer {
 	padding-top: 4.625rem;
 	padding-bottom: 0.5rem;
+	max-height: 400px;
 }
 
 .footer .footer-col {
