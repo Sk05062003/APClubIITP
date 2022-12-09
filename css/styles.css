@@ -1478,8 +1478,60 @@ color: #FFFFFF;
 	padding-top: 7rem;
 	padding-bottom: 4rem;
 	text-align: center;
+	background-color: #001226;
+	position: relative;
+	overflow-y: hidden;
 }
 
+.basic-4 .about-bg-1{
+	position: absolute;
+	width: calc(1026/1920 * 98%);
+	aspect-ratio: 1026/823;
+	left: 0;
+	top: 0;
+	background: url(../images/d3edit\ 1.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(-0.42deg);
+}
+.basic-4 .about-bg-2{
+	position: absolute;
+	width: calc(1034.18/1920 * 100%);
+	aspect-ratio: 1034.18/1028.5;
+	left: calc(886/1920 * 98%);
+	top: 0;
+	background: url(../images/d1edit\ 1.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(-0.42deg);
+}
+.basic-4 .about-bg-3{
+	position: absolute;
+	width: calc(1034.18/1920 * 98%);
+	aspect-ratio: 1034.18/1028.5;
+	left: 0;
+	top: calc(823/1026* 98vw - 40vw);
+	background: url(../images/d1edit\ 2.svg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(-0.42deg);
+}
+.basic-4 .about-bg-4{
+	position: absolute;
+	width: calc(1026/1920 * 100%);
+	aspect-ratio: 1026/931.57;
+	left: calc(1028.5/1920 * 98vw - 5vw);
+	top: calc(871.48/1920 * 98vw );
+	background: url(../images/d3edit\ 2.svg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	transform: rotate(-0.42deg);
+}
 .basic-4 h2 {
 	margin-bottom: 1rem;
 	text-align: center;
@@ -1487,6 +1539,8 @@ color: #FFFFFF;
 
 .basic-4 .team-member {
 	max-width: 12.5rem;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 29px;
 	margin-right: auto;
 	margin-bottom: 3.5rem;
 	margin-left: auto;
