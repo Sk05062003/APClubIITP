@@ -1483,6 +1483,11 @@ color: #FFFFFF;
 	overflow-y: hidden;
 }
 
+
+.basic-4 .container,.basic-4 h1,.basic-4  h2,.basic-4  p{
+	color: #FFFFFF;
+}
+
 .basic-4 .about-bg-1{
 	position: absolute;
 	width: calc(1026/1920 * 98%);
@@ -1537,13 +1542,35 @@ color: #FFFFFF;
 	text-align: center;
 }
 
+.basic-4 .team-member-wrapper{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	border-radius: 29px;
+	gap:0px 0px;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.basic-4 .team-member-wrapper .team-member:first-child{
+	border-radius: 29px 0 0 29px;
+}
+
+.basic-4 .team-member-wrapper .team-member:last-child{
+	border-radius: 0 29px 29px 0;
+}
+.basic-4 #team-member-co-ordinator p{
+	color:#FFA500;
+}
 .basic-4 .team-member {
 	max-width: 12.5rem;
 	background-color: rgba(0, 0, 0, 0.7);
-	border-radius: 29px;
-	margin-right: auto;
+	border:0px;
+	padding: 0px;
+	margin-right: 0px !important;
+	margin: 0px;
 	margin-bottom: 3.5rem;
-	margin-left: auto;
+	margin-left: 0px !important;
 }
 
 /* Hover Animation */
@@ -1562,6 +1589,14 @@ color: #FFFFFF;
 	-moz-transform: scale(1.15);
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
+}
+
+.basic-4 .team-member .fa-stack, .basic-4 .team-member .fa-stack-2x,.basic-4 .team-member .fa-stack-1x{
+	
+color:#FFA500;
+background-color: rgba(0, 0, 0, 1) !important;
+background-blend-mode: screen;
+border-radius: 50%;
 }
 
 /* end of hover animation */
