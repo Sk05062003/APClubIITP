@@ -1626,135 +1626,187 @@ screen and (-ms-high-contrast: none) {
 /*********************/
 /*     14. About     */
 /*********************/
-.basic-4 {
-	padding-top: 7rem;
-	padding-bottom: 4rem;
+.teams {
+	background: url(../images/about-background.png) center repeat;
 	text-align: center;
 	background-color: #001226;
-	position: relative;
-	overflow-y: hidden;
 }
 
-.basic-4 .about-bg-1{
-	position: absolute;
-	width: calc(1026/1920 * 98%);
-	aspect-ratio: 1026/823;
-	left: 0;
-	top: 0;
-	background: url(../images/d3edit\ 1.svg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	transform: rotate(-0.42deg);
-}
-.basic-4 .about-bg-2{
-	position: absolute;
-	width: calc(1034.18/1920 * 100%);
-	aspect-ratio: 1034.18/1028.5;
-	left: calc(886/1920 * 98%);
-	top: 0;
-	background: url(../images/d1edit\ 1.svg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	transform: rotate(-0.42deg);
-}
-.basic-4 .about-bg-3{
-	position: absolute;
-	width: calc(1034.18/1920 * 98%);
-	aspect-ratio: 1034.18/1028.5;
-	left: 0;
-	top: calc(823/1026* 98vw - 40vw);
-	background: url(../images/d1edit\ 2.svg);
-	background-position: top;
-	background-size: cover;
-	background-repeat: no-repeat;
-	transform: rotate(-0.42deg);
-}
-.basic-4 .about-bg-4{
-	position: absolute;
-	width: calc(1026/1920 * 100%);
-	aspect-ratio: 1026/931.57;
-	left: calc(1028.5/1920 * 98vw - 5vw);
-	top: calc(871.48/1920 * 98vw );
-	background: url(../images/d3edit\ 2.svg);
-	background-position: top;
-	background-size: cover;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	transform: rotate(-0.42deg);
-}
-.basic-4 h2 {
-	margin-bottom: 1rem;
-	text-align: center;
+.teams-container {
+	padding: 4rem 0;
+	color: white;
+	width: 88%;
+	margin: auto;
 }
 
-.basic-4 .team-member {
-	max-width: 12.5rem;
-	background-color: rgba(0, 0, 0, 0.7);
-	border-radius: 29px;
-	margin-right: auto;
-	margin-bottom: 3.5rem;
-	margin-left: auto;
-}
 
-/* Hover Animation */
-.basic-4 .image-wrapper {
-	overflow: hidden;
+.teams-heading {
+	font-family: "Share Tech Mono";
+	font-size: 60px;
+	color: lightgray;
 	margin-bottom: 1.5rem;
-	border-radius: 50%;
 }
 
-.basic-4 .image-wrapper img {
-	margin: 0;
+.teams-desc {
+	font-family: "Share Tech Mono";
+	font-size: 30px;
+	color: lightgray;
+}
+
+.main-coordinator-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 2px solid blue; */
+	margin: 2rem 0;
+}
+
+.main-coordinator-container .team-member-card {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.other-coordinator-container {
+	display: grid;
+	grid-gap: 1rem;
+	place-items: center;
+	grid-template-columns: repeat(4, 1fr);
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 0.8rem;
+}
+
+.team-member-card {
+	/* border: 2px solid yellow; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	/* background: rgba(0, 0, 0, 0.5); */
+	border-radius: 0.8rem;
+	width: 15vw;
+	min-width: 200px;
+	max-width: 300px;
+}
+
+.image-container {
+	/* border: 2px solid green; */
+	width: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+
+.teams .image-container img {
 	transition: all 0.3s;
 }
 
-.basic-4 .image-wrapper:hover img {
+.teams .image-container:hover img {
 	-moz-transform: scale(1.15);
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
 }
 
-/* end of hover animation */
-
-.basic-4 .team-member .p-large {
-	margin-bottom: 0.25rem;
-	font-size: 1.125rem;
+.main-coordinator-container p {
+	text-transform: uppercase;
+	color: #FFA500;
+	margin: 0;
+	font-family: "Share Tech Mono";
 }
 
-.basic-4 .team-member .job-title {
-	margin-bottom: 0.375rem;
+.main-coordinator-container .p-large {
+	font-size: 1.2rem;
 }
 
-.basic-4 .fa-stack {
-	margin-top: 0.375rem;
-	margin-right: 0.125rem;
-	margin-left: 0.125rem;
-	font-size: 0.875rem;
+.other-coordinator-container .p-large {
+	font-size: 1.2rem;
 }
 
-.basic-4 .fa-stack-2x {
-	color: #00bfd8;
-	transition: all 0.2s ease;
+.other-coordinator-container p {
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+	font-family: "Share Tech Mono";
 }
 
-.basic-4 .fa-stack-1x {
-	color: #fff;
-	transition: all 0.2s ease;
+.teams-text-container {
+	/* border: 2px solid white; */
+	width: 100%;
 }
 
-.basic-4 .fa-stack:hover .fa-stack-2x {
-	color: #00a7bd;
+.teams .fa-stack-2x {
+	color: rgba(0, 0, 0, 0.7);
 }
 
-.basic-4 .fa-stack:hover .fa-stack-1x {
-	color: #fff;
+.teams .fa-stack-1x {
+	color: #FFA500;
 }
 
+.subcoordinator-container {
+	display: grid;
+	grid-gap: 1rem;
+	place-items: center;
+	grid-template-columns: repeat(4, 1fr);
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 0.8rem;
+}
 
+.subcoordinator-item {
+	/* border: 2px solid green; */
+	width: 15vw;
+	min-width: 200px;
+	max-width: 300px;
+}
 
+.subcoordinator-item div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 10rem;
+	margin: auto;
+}
 
+.subcoordinator-item p {
+	text-transform: uppercase;
+	color: white;
+	font-family: "Share Tech Mono";
+	margin: 0;
+	font-size: 1.1rem;
+}
+
+.subcoordinator-item span {
+	text-transform: uppercase;
+	color: white;
+	font-family: "Share Tech Mono";
+	margin: 0;
+}
+
+@media screen and (max-width:1000px) {
+	.other-coordinator-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+	}
+
+	.subcoordinator-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+	}
+
+	.subcoordinator-item {
+		margin: 1.5rem 0;
+	}
+}
+
+@media screen and (max-width:550px) {
+	.other-coordinator-container {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: auto;
+	}
+
+	.subcoordinator-container {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: auto;
+	}
+}
 
 /***********************/
 /*     15. Contact     */
@@ -2234,18 +2286,6 @@ a:hover.back-to-top {
 	/* end of testimonials */
 
 
-	/* About */
-	.basic-4 .team-member {
-		display: inline-block;
-		width: 12.5rem;
-		margin-right: 2rem;
-		margin-left: 2rem;
-		vertical-align: top;
-	}
-
-	/* end of about */
-
-
 	/* Contact */
 	.form-2 .list-unstyled li {
 		display: inline-block;
@@ -2699,15 +2739,6 @@ a:hover.back-to-top {
 	}
 
 	/* end of testimonials */
-
-
-	/* About */
-	.basic-4 .team-member {
-		margin-right: 2.25rem;
-		margin-left: 2.25rem;
-	}
-
-	/* end of about */
 
 
 	/* Contact */
