@@ -1487,7 +1487,6 @@ color: #FFFFFF;
 .basic-4 .container,.basic-4 h1,.basic-4  h2,.basic-4  p{
 	color: #FFFFFF;
 }
-
 .basic-4 .about-bg-1{
 	position: absolute;
 	width: calc(1026/1920 * 98%);
@@ -1559,6 +1558,9 @@ color: #FFFFFF;
 .basic-4 .team-member-wrapper .team-member:last-child{
 	border-radius: 0 29px 29px 0;
 }
+.basic-4 #team-member-co-ordinator{
+	border-radius: 29px;
+}
 .basic-4 #team-member-co-ordinator p{
 	color:#FFA500;
 }
@@ -1591,13 +1593,6 @@ color: #FFFFFF;
 	transform: scale(1.15);
 }
 
-.basic-4 .team-member .fa-stack, .basic-4 .team-member .fa-stack-2x,.basic-4 .team-member .fa-stack-1x{
-	
-color:#FFA500;
-background-color: rgba(0, 0, 0, 1) !important;
-background-blend-mode: screen;
-border-radius: 50%;
-}
 
 /* end of hover animation */
 
@@ -1618,17 +1613,17 @@ border-radius: 50%;
 }
 
 .basic-4 .fa-stack-2x {
-	color: #00bfd8;
+	color: #000000;
 	transition: all 0.2s ease;
 }
 
 .basic-4 .fa-stack-1x {
-	color: #fff;
+	color: #FFA500;
 	transition: all 0.2s ease;
 }
 
 .basic-4 .fa-stack:hover .fa-stack-2x {
-	color: #00a7bd;
+	color: #000000;
 }
 
 .basic-4 .fa-stack:hover .fa-stack-1x {
