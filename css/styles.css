@@ -1697,7 +1697,9 @@ border-radius: 50%;
 .footer {
 	padding-top: 4.625rem;
 	padding-bottom: 0.5rem;
+	max-height: 400px;
 	background: #000000;
+	border-top: 1px solid #FFA500;
 	border: 1px solid #FFA500;
 }
 
