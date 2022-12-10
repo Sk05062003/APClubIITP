@@ -1691,6 +1691,7 @@ screen and (-ms-high-contrast: none) {
 .image-container {
 	/* border: 2px solid green; */
 	width: 100%;
+	max-width: 30rem;
 	border-radius: 50%;
 	overflow: hidden;
 	margin-bottom: 1rem;
@@ -1741,17 +1742,9 @@ screen and (-ms-high-contrast: none) {
 	color: #FFA500;
 }
 
-.subcoordinator-container {
-	display: grid;
-	grid-gap: 1rem;
-	place-items: center;
-	grid-template-columns: repeat(4, 1fr);
-	background: rgba(0, 0, 0, 0.5);
-	border-radius: 0.8rem;
-}
-
 .subcoordinator-item {
 	/* border: 2px solid green; */
+	margin-top: 1rem;
 	width: 15vw;
 	min-width: 200px;
 	max-width: 300px;
@@ -1762,7 +1755,6 @@ screen and (-ms-high-contrast: none) {
 	justify-content: space-between;
 	align-items: center;
 	max-width: 10rem;
-	margin: auto;
 }
 
 .subcoordinator-item p {
@@ -1782,11 +1774,6 @@ screen and (-ms-high-contrast: none) {
 
 @media screen and (max-width:1000px) {
 	.other-coordinator-container {
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: auto;
-	}
-
-	.subcoordinator-container {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: auto;
 	}
