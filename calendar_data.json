@@ -43,10 +43,5 @@
         "date": "04/02/2023",
         "title": "Lorem Ipsum 9",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-        "date": "11/09/2023",
-        "title": "Lorem Ipsum 10",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
 ]

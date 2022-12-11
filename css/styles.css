@@ -935,16 +935,104 @@ screen and (-ms-high-contrast: none) {
 	}
 }
 
+
+.showHide-container {
+	display: none;
+}
+
+.calendar {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	background-color: #3A1B00;
+}
+
+.calendar-container {
+	width: 90%;
+	position: relative;
+	margin: auto;
+	/* border: 2px solid red; */
+	padding-top: 3rem;
+}
+
+.calendar-line {
+	border-radius: 10px;
+	width: 100%;
+	height: 8px;
+	position: absolute;
+	top: 5.8rem;
+	background-color: white;
+}
+
+.calendar-wrapper {
+	padding-bottom: 3rem;
+}
+
 #calender-id button {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
 	text-align: center;
 	color: white;
-	position: absolute;
 	width: 100%;
 	padding: 12px 0;
 	background: rgba(255, 165, 0, 0.5);
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+}
+
+.calendar-card {
+	/* border: 2px solid blue; */
+	user-select: none;
+	/* border: 2px solid red; */
+}
+
+.text-content {
+	margin-top: 2rem;
+	border-radius: 1rem;
+	/* border: 2px solid blue; */
+	padding: 2rem;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.calendar-card h2 {
+	color: #FFA500;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: "Share Tech Mono";
+	margin: 0;
+	font-size: 2rem;
+	padding-bottom: 0.5rem;
+}
+
+.calendar-card .description {
+	padding-top: 1rem;
+	border-top: 2px solid white;
+	color: white;
+	font-size: 1.2rem;
+	text-align: justify;
+}
+
+.circular-date {
+	background: #FFA500;
+	color: black;
+	border-radius: 50%;
+	width: 6rem;
+	margin: auto;
+	height: 6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.circular-date-heading {
+	margin: 0;
+	color: black;
+	font-weight: 600;
+	font-size: 1rem;
+	text-transform: uppercase;
 }
 
 #calender-id button:hover {
@@ -954,6 +1042,11 @@ screen and (-ms-high-contrast: none) {
 
 #calender-id button:hover img {
 	filter: brightness(0);
+}
+
+#open-close-icon {
+	width: 1.5rem;
+
 }
 
 .astrocalender {
@@ -967,6 +1060,30 @@ screen and (-ms-high-contrast: none) {
 	flex-direction: row;
 	justify-content: space-around;
 }
+
+.date-container {
+	/* border: 2px solid blue; */
+	display: flex;
+	width: 50%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding-bottom: 2rem;
+}
+
+.dates {
+	/* border: 2px solid white; */
+	font-family: "Share Tech Mono";
+	font-size: 2rem;
+}
+
+.current {
+	font-size: 2.5rem;
+	color: white;
+}
+
+
 
 /*************************/
 /*     05. Customers     */
@@ -1060,6 +1177,7 @@ screen and (-ms-high-contrast: none) {
 	/* border: 2px solid red; */
 	/* width: 350px; */
 	background-color: rgba(0, 0, 0, 0.4);
+	user-select: none;
 }
 
 .image-content {
@@ -1114,7 +1232,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 @media screen and (max-width:1000px) {
-	.swiper-slide-next h2 {
+	.events-card .swiper-slide-next h2 {
 		color: white;
 	}
 }

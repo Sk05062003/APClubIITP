@@ -129,9 +129,37 @@
     </div>
     <!-- end of header -->
 
-    <div id="calender-id">
-        <button class="calender" id="calender">Astronomical Calender <img src="images\arrow.svg"></button>
+    <div class="calendar">
+        <div id="calender-id">
+            <button class="calender" id="calender">Astronomical Calendar <img id="open-close-icon"
+                    src="./images/arrow.svg"></button>
+        </div>
+        <div class="showHide-container">
+            <div class="calendar-container">
+                <div class="swiper mySwiper">
 
+                    <div class="calendar-wrapper swiper-wrapper">
+
+                    </div>
+                    <div class="swiper-button-next cal-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev cal-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination cal-pagination"></div>
+                </div>
+                <div class="calendar-line">
+                </div>
+            </div>
+            <div class="date-container">
+                <div class="previous dates">
+                    2021
+                </div>
+                <div class="current dates">
+                    2022
+                </div>
+                <div class="next dates">
+                    2023
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- About Us -->
@@ -634,6 +662,7 @@
     <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script>
     <script src="js/events.js"></script>
+    <script src="js/calendar.js"></script>
     <script>
         var div = document.getElementById('feedback-scroll');
         myinterval = setInterval(function () {
