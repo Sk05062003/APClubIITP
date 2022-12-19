@@ -54,7 +54,7 @@ html {
 body,
 p {
 	color: #626262;
-	font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+	/*font: 400 0.875rem/1.375rem "Raleway", sans-serif;*/
 }
 
 .p-large {
@@ -1690,41 +1690,38 @@ color: #FFFFFF;
 /*     16. Footer     */
 /**********************/
 .footer {
-	padding-top: 4.625rem;
+	padding-top: 2.625rem;
 	padding-bottom: 0.5rem;
 	max-height: 400px;
 	background: #000000;
 	border-top: 1px solid #FFA500;
-	border: 1px solid #FFA500;
+	/*border: 1px solid #FFA500;*/
 }
-
+.footer .container{
+	max-height: 400px;
+	text-align: left;
+}
 .footer .footer-col {
-	margin-bottom: 2.25rem;
+	margin-bottom: 1.25rem;
 }
-
-.footer h4 {
+.footer .last{
+	text-align: center;
+}
+.footer .footer-header{
 	margin-bottom: 1rem;
 	font-family: 'Share Tech Mono';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 35px;
-	line-height: 172.7%;
-	/* or 60px */
-
-
-	color: #FFFFFF;
+	display: block;
+	font-size: 23.5px !important;
 }
 
-.footer h5 {
+.footer .footer-text{
 	font-family: 'Share Tech Mono';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 30px;
-	line-height: 172.7%;
-	/* or 52px */
-
-
-	color: #FFFFFF;
+	display: block;
+	font-size: 20px !important;
 }
 
 .footer .list-unstyled .fas {
