@@ -36,7 +36,6 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/swiper.min.css">
     <!-- Favicon  -->
     <link rel="icon" href="images/apclub.png">
     <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'>
@@ -78,10 +77,6 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
-
-
-
-
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#about">About</a>
                 </li>
@@ -134,9 +129,37 @@
     </div>
     <!-- end of header -->
 
-    <div id="calender-id">
-        <button class="calender" id="calender">Astronomical Calender <img src="images\arrow.svg"></button>
+    <div class="calendar">
+        <div id="calender-id">
+            <button class="calender" id="calender">Astronomical Calendar <img id="open-close-icon"
+                    src="./images/arrow.svg"></button>
+        </div>
+        <div class="showHide-container">
+            <div class="calendar-container">
+                <div class="swiper mySwiper">
 
+                    <div class="calendar-wrapper swiper-wrapper">
+
+                    </div>
+                    <div class="swiper-button-next cal-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev cal-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination cal-pagination"></div>
+                </div>
+                <div class="calendar-line">
+                </div>
+            </div>
+            <div class="date-container">
+                <div class="previous dates">
+                    2021
+                </div>
+                <div class="current dates">
+                    2022
+                </div>
+                <div class="next dates">
+                    2023
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- About Us -->
@@ -322,188 +345,6 @@
             </div>
         </div>
     </div>
-
-    <!-- <div class="row">
-        
-    </di<div class="col-lg-12">
-            <h2>About The Team</h2>
-            <p class="p-heading p-large">Meet our new core team!</p>
-        </div>v>
-    <div class="row">
-        <div class="col-lg-12">
-    
-            <div class="team-member">
-                <div class="image-wrapper">
-                    <img class="img-fluid" src="images/Prajyot Ramteke.jpg" alt="Prajyot Ramteke" height="200" width="200">
-                </div>
-                <p class="p-large"><strong>Prajyot Ramteke</strong></p>
-                <p class="job-title">Overall Co-ordinator</p>
-                <span class="social-icons">
-                    <span class="fa-stack">
-                        <a href="https://www.linkedin.com/in/rawon/" target="blank">
-                            <i class="fas fa-circle fa-stack-2x facebook"></i>
-                            <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </span>
-            </div>
-        </div>
-    </div>
-    
-    <div class="team-member">
-        <div class="image-wrapper">
-            <img class="img-fluid" src="images/Ujjwal_Anand.jpg" alt="Ujjwal Anand">
-        </div>
-        <p class="p-large"><strong>Ujjwal Anand</strong></p>
-        <p class="job-title">Theoretical Divisions</p>
-        <span class="social-icons">
-            <span class="fa-stack">
-                <a href="https://www.linkedin.com/in/ujjwal-anand-753348218/" target="blank">
-                    <i class="fas fa-circle fa-stack-2x facebook"></i>
-                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                </a>
-            </span>
-    
-        </span>
-        <div>
-            <p>SUBCOORDINATORS</p>
-            <span class="social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/nishant-kumar-989589231/" target="blank">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-            <span>Nishant Kumar</span>
-            <br>
-            <span class="social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/awantika-singh-a94a7822b/" target="blank">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-            <span>Avantika Singh</span>
-        </div>
-    </div>
-    
-    <div class="team-member">
-        <div class="image-wrapper">
-            <img class="img-fluid" src="images/Anshul_Thakkar.jpg" alt="Anshul Thakkar">
-        </div>
-        <p class="p-large"><strong>Anshul Thakkar</strong></p>
-        <p class="job-title">Observational division</p>
-        <span class="social-icons">
-            <span class="fa-stack">
-                <a href="https://www.linkedin.com/in/anshul-t-a78138123/" target="blank">
-                    <i class="fas fa-circle fa-stack-2x facebook"></i>
-                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                </a>
-            </span>
-    
-        </span>
-        <div>
-            <p>SUBCOORDINATORS</p>
-            <span class="social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/harsh-loomba-697404230/" target="blank">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-            <span>Harsh Loomba</span>
-            <br>
-            <span class="social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/prakhar-gupta-b9167222b/" target="blank">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-            <span>Prakhar Gupta</span>
-        </div>
-    </div>
-    <div class="team-member">
-        <div class="image-wrapper">
-            <img class="img-fluid" src="images/Saurabh_Kandpal.jpg" alt="Saurabh Kandpal">
-        </div>
-        <p class="p-large"><strong>Saurabh Kandpal</strong></p>
-        <p class="job-title">Projects and PR Division</p>
-        <span class="social-icons">
-            <span class="fa-stack">
-                <a href="https://www.linkedin.com/in/saurabh-kandpal/" target="blank">
-                    <i class="fas fa-circle fa-stack-2x facebook"></i>
-                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                </a>
-            </span>
-    
-        </span>
-        <div>
-            <p>SUBCOORDINATORS</p>
-            <span class="social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/varun-thanneeru-575513220/" target="blank">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-            <span>Varun Thanneeru</span>
-            <br>
-            <span class="social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/ayesha-khan-6005b2247/" target="blank">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-            <span>Ayesha Khan</span>
-        </div>
-    </div>
-    <div class="team-member">
-        <div class="image-wrapper">
-            <img class="img-fluid" src="images/Priyanshi_Singh.jpg" alt="Priyanshi Singh">
-        </div>
-        <p class="p-large"><strong>Priyanshi Singh</strong></p>
-        <p class="job-title">Chief Editor/Magzine </p>
-        <span class="social-icons">
-            <span class="fa-stack">
-                <a href="https://www.linkedin.com/in/priyanshi-s/" target="blank">
-                    <i class="fas fa-circle fa-stack-2x facebook"></i>
-                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                </a>
-            </span>
-    
-        </span>
-        <div>
-            <p>SUBCOORDINATORS</p>
-            <span class="social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/amoy-ashesh-7839b3142/" target="blank">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-            <span>Amoy Ashesh</span>
-            <br>
-            <span class="social-icons">
-                <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/5uryansh/" target="blank">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
-            <span>Suryansh Jaiswal</span>
-        </div>
-    </div> -->
-
 
     <!-- Team -->
     <div id="team" class="teams">
@@ -821,6 +662,7 @@
     <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script>
     <script src="js/events.js"></script>
+    <script src="js/calendar.js"></script>
     <script>
         var div = document.getElementById('feedback-scroll');
         myinterval = setInterval(function () {
@@ -840,14 +682,10 @@
         });
         document.addEventListener('DOMContentLoaded', function () {
 
-            console.log('hello');
             var div = document.getElementById('feedback-scroll');
 
 
-
-
             div.addEventListener('scroll', function () {
-                console.log('scrolling');
                 var max_scroll = this.scrollHeight - this.clientHeight;
                 var current_scroll = this.scrollTop;
                 var bottom = 100;
@@ -856,9 +694,7 @@
                     var clone = div_item.cloneNode(true);
                     div.appendChild(clone);
                 }
-                console.log(current_scroll);
                 if (current_scroll <= 500) {
-                    console.log(current_scroll);
                     var div_item = document.getElementById('scroll-container');
                     var clone = div_item.cloneNode(true);
                     div.insertBefore(clone, div.firstChild);

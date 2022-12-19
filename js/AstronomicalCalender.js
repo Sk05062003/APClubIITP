@@ -1,19 +1,15 @@
-button = document.getElementById("calender");
-var open = false;
-
-const Calender = document.createElement('div');
-const parent = document.getElementById('calender-id');
-Calender.className = "astrocalender";
-Calender.innerHTML = "Calender Content";
-
-
-
-button.onclick = ()=>{
+const button = document.getElementById("calender");
+const img = document.getElementById("open-close-icon");
+const showHide_container = document.querySelector(".showHide-container");
+let open = false;
+button.onclick = () => {
     open = !open;
-    if(open){
-        parent.append(Calender);
+    if (open) {
+        img.src = "./images/arrowup.svg";
+        showHide_container.style.display = "block";
     }
-    else{
-        parent.removeChild(Calender);
+    else {
+        img.src = "./images/arrow.svg";
+        showHide_container.style.display = "none";
     }
 }
