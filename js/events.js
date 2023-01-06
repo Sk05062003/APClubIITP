@@ -16,6 +16,7 @@ var swiper = new Swiper(".slide-content", {
     },
     autoplay: {
         delay: 10000,
+        disableOnInteraction: false
     },
     breakpoints: {
         0: {
