@@ -14,6 +14,9 @@ var swiper = new Swiper(".slide-content", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    autoplay: {
+        delay: 10000,
+    },
     breakpoints: {
         0: {
             slidesPerView: 1,
